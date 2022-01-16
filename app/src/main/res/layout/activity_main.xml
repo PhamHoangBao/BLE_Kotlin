@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="data Intent"
+        android:id="@+id/edt_data_intent"
+        />
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start service"
+        />
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop service"
+        />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check BLE"
+        />
+
+    <Button
+        android:id="@+id/btn_start_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start BLE Service"
+        />
+
+    <Button
+        android:id="@+id/btn_stop_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop BLE Service"
+        />
+</LinearLayout>
